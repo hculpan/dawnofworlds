@@ -1,6 +1,10 @@
 var express = require('express');
 var stormpath = require('express-stormpath');
 
+var Parse = require('parse').Parse;
+
+Parse.initialize("1rbovxV4bt6Sl3VJvaeCCqrnrHgb68uoXba7BuXO", "0HkTwUk0vorxMJYYjhbxbOmoerzMuyH7UA0zIz8s");
+
 var app = express();
 
 app.set('views', './views');
@@ -18,7 +22,7 @@ app.use(stormpathMiddleware);
 
 app.get('/', function(req, res) {
   res.render('home', {
-    title: 'Welcome'
+    title: 'Dawn of Worlds'
   });
 });
 
