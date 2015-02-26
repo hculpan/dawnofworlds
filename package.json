@@ -1,0 +1,13 @@
+{
+  "name": "Dawn-of-Worlds",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hculpan/dawnofworlds.git"
+  },
+  "dependencies": {
+    "express": "^4.9.0",
+    "ejs": "^1.0.0",
+    "body-parser": "^1.8.1"
+  }
+}
